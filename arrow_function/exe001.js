@@ -6,7 +6,7 @@ const soma = (v1,v2) =>{return v1+v2} //pega-se os valores de v1 e v2 e dá o re
 
 console.log(soma(10,5))
 
-//Functio Arrow com um valor, não precisa dos parênteses.
+//Function Arrow com um valor, não precisa dos parênteses.
  /*Se for uma operação simples não precisa do return e da chaves. Para operação com mais de uma linha, precisa colocar as chaves e o return*/
 
 const soma1 = n => {return n}
@@ -18,3 +18,9 @@ const soma2 = (v1,v2) => {
     return res
 }
 console.log(soma2(10,5))
+
+const nome = n => {return n}
+console.log(nome("Márcia Lino"))
+
+const add = n => n+10
+console.log(add(15))
