@@ -10,3 +10,4 @@ console.log(n++) // como ele pega a variável primeiro, para depois incrementar,
 console.log(x)
 console.log(n + n1) // faz-se a soma, pois tem dois números
 console.log(n1 +  "" + n2)
+
